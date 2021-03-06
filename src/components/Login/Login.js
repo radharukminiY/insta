@@ -9,7 +9,7 @@ import playstore from '../../images/play.png';
 import SignIn from '../SignIn/SignIn';
 import SignUp from '../SignUp/SignUp';
 
-class LoginPage extends Component {
+class Login extends Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -50,11 +50,11 @@ class LoginPage extends Component {
                                             <div className="login__dividor"></div>
                                         </div>
 
-                                        <div className="login__fb">
-                                            <img src={fb} width="15px" style={{ "marginRight":"5px" }} />Log in with Facebook
-                                        </div>
-                                        <div className="login_forgt"> Forgot password?</div>
-                                   </div>
+                                    //    <div className="login__fb">
+                                        //    <img src={fb} width="15px" style={{ "marginRight":"5px" }} />Log in with Facebook
+                                      //  </div>
+                                      //  <div className="login_forgt"> Forgot password?</div>
+                                  // </div>
                                </div>
 
                                 <div className="loginpage__signupoption">
@@ -92,4 +92,4 @@ class LoginPage extends Component {
     }
 }
 
-export default LoginPage;
+export default Login;
