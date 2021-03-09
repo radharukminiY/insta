@@ -64,8 +64,7 @@ class Login extends Component {
                           </div>
 
                             <div className="loginPage__downloadSection">
-                            <div>
-                            Get the app.
+                            <div>Get the app.
                             </div>
                             <div className="loginPage__option">
                             <img className="loginPage_dwimg" src={appstore} width="136px" />
@@ -75,10 +74,10 @@ class Login extends Component {
                             </div>
                             </div>
                               <Grid/>
-                    <Grid item xs={3}>
+                    <Grid item xs={3} />
                     <Grid />
                        <Grid />
-                           </div>
+                           </div>   </div>
          );
     }
 }
